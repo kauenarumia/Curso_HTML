@@ -1,0 +1,51 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 8px;
+    font-size: 18px;
+}
+li:hover {
+    color: #4caf4c;
+    cursor: pointer;
+}
+
+a {
+    color: #4caf4c;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #4caf4c;
+    height: 40px;
+    padding: 8px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+
+h1 {
+    color: #4d4d4d;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 10px;
+    color: #4caf4c;
+}
